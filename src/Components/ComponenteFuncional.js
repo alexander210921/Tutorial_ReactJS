@@ -1,10 +1,13 @@
 import React from 'react'
-const TarjetaFruta =()=>{
+//Las props llegan como primer parametro de la funcion
+const TarjetaFruta =(props)=>{
+    console.log(props)
     return(
         <>
             <div>
-                <h3>Esto es un titulo</h3>
-                <p>Texto de ejemplo</p>
+                {/* Agregamos la descripcion en medio de las etiqueta con el nombre de la prop que querramos */}
+                <h3>{props.titulo}</h3>
+                <p> Q {props.precio}</p>
              </div>   
         </>
     )
