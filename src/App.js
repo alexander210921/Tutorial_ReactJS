@@ -1,9 +1,11 @@
 import React from 'react'
-import Element from './Components/Element'
+import ComponenteFuncional from './Components/ComponenteFuncional'
 function App() {
   return (
    <>
-    <Element />
+    <ComponenteFuncional />
+    <ComponenteFuncional />
+
    </>
   );
 }
