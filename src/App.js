@@ -1,9 +1,9 @@
 import React from 'react'
-import Element from './Components/Component'
+import App1 from './Components/Events'
 function App() {
   return (
    <>
-    <Element />
+    <App1 />
 
    </>
   );
